@@ -1,8 +1,22 @@
-# 🛠️ Enable uBlock Origin or Other Manifest V2 Extensions in Chrome (M137+)
+# 🧩 Re-Enable Manifest V2 Extensions in Chrome (uBlock Origin, etc.)
 
-Google Chrome is deprecating support for **Manifest V2** extensions, affecting popular tools like **uBlock Origin**. You can still re-enable them using internal Chrome flags.
+Google Chrome (v117+ and especially M137+) is deprecating **Manifest V2 (MV2)** extensions, which affects powerful tools like **uBlock Origin**. This repo provides:
+
+- ✅ A one-click **Windows script** to temporarily re-enable MV2
+- 📘 Full **manual instructions** if you prefer doing it yourself
+- 🙏 Credits to the original discoverer
 
 ---
+
+## 🚀 One-Click Method (Windows)
+
+Run this script to launch Chrome with the required MV2 flags:
+
+```bat
+enable_mv2.bat
+
+---
+
 
 ## ✅ Step-by-Step Instructions
 
