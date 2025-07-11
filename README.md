@@ -1,60 +1,64 @@
 # 🛠️ Enable uBlock Origin or Other Manifest V2 Extensions in Chrome (M137+)
 
-Google Chrome is phasing out support for **Manifest V2** extensions, which affects popular tools like **uBlock Origin**. However, with a few Chrome flags, you can re-enable them.
+Google Chrome is deprecating support for **Manifest V2** extensions, affecting popular tools like **uBlock Origin**. You can still re-enable them using internal Chrome flags.
 
 ---
 
-## ✅ Step-by-Step Guide
+## ✅ Step-by-Step Instructions
 
-### 1. Enable Temporary Unexpire Flag
+### 1. Enable the Temporary Unexpire Flag
 
-Visit the following Chrome flag page:
+Copy and paste this into your Chrome address bar:
 
-🔗 [chrome://flags/#temporary-unexpire-flags-m137](chrome://flags/#temporary-unexpire-flags-m137)
+🔗 `chrome://flags/#temporary-unexpire-flags-m137`
 
 - Set it to **Enabled**
-- Then **restart Chrome**
+- **Restart Chrome** after setting this
 
 ---
 
-### 2. Set These Flags After Restarting Chrome
+### 2. Modify the Following Chrome Flags
 
-Change the following flags as shown:
+After restarting Chrome, copy and paste each of the following one by one into the address bar, then change the value as shown:
 
-- 🔗 [chrome://flags/#extension-manifest-v2-deprecation-warning](chrome://flags/#extension-manifest-v2-deprecation-warning) → **Disabled**
-- 🔗 [chrome://flags/#extension-manifest-v2-deprecation-disabled](chrome://flags/#extension-manifest-v2-deprecation-disabled) → **Disabled**
-- 🔗 [chrome://flags/#extension-manifest-v2-deprecation-unsupported](chrome://flags/#extension-manifest-v2-deprecation-unsupported) → **Disabled**
-- 🔗 [chrome://flags/#allow-legacy-mv2-extensions](chrome://flags/#allow-legacy-mv2-extensions) → **Enabled**
+- 🔗 `chrome://flags/#extension-manifest-v2-deprecation-warning` → **Disabled**
+- 🔗 `chrome://flags/#extension-manifest-v2-deprecation-disabled` → **Disabled**
+- 🔗 `chrome://flags/#extension-manifest-v2-deprecation-unsupported` → **Disabled**
+- 🔗 `chrome://flags/#allow-legacy-mv2-extensions` → **Enabled**
 
 ---
 
 ### 3. Reload the Extension
 
-Visit the extensions page:
+Go to your extensions page:
 
-🔗 [chrome://extensions/](chrome://extensions/)
+🔗 `chrome://extensions/`
 
-- Locate **uBlock Origin** or your extension
-- If it's **disabled**, simply click **"Enable"** or **"Reload"**
+- Find **uBlock Origin** or the extension you want
+- Click **Reload** or toggle it back **On**
+- If it's still **grayed out**, see the fix below
 
 ---
 
-### 🛠️ Bonus Tip: If "Add to Chrome" is Disabled on Web Store
+### 🛠️ Optional Fix: If "Add to Chrome" Button Is Disabled
 
-If you're on the Chrome Web Store and the **"Add to Chrome"** button is disabled:
+On the Chrome Web Store:
 
 1. Right-click the **"Add to Chrome"** button
-2. Select **"Inspect"**
-3. In the Elements tab, find the button element
-4. **Delete the `disabled` attribute**
-5. You can now click the button
+2. Click **Inspect**
+3. In the Developer Tools window, find the button's HTML
+4. **Remove the `disabled` attribute**
+5. Now you can click the button normally
 
 ---
 
-## ✅ Done!
+## 🎉 Done!
 
-You’ve now successfully re-enabled support for Manifest V2 extensions like uBlock Origin!
+You’ve successfully re-enabled Manifest V2 support and can continue using extensions like **uBlock Origin** without interruption.
 
 ---
 
-> ⚠️ **Note:** These flags are temporary. Google may remove them in future versions. For long-term support of full-featured blockers, consider switching to **Firefox** or a Chromium fork like **Ungoogled Chromium** or **Brave**.
+> ⚠️ **Note:** These flags are temporary and may be removed in future Chrome updates. For long-term support, consider using:
+> - [Firefox](https://www.mozilla.org/firefox/)
+> - [Brave](https://brave.com/)
+> - [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium)
