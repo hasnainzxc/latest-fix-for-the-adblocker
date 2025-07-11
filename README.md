@@ -51,6 +51,11 @@ On the Chrome Web Store:
 5. Now you can click the button normally
 
 ---
+## 🙏 Credits
+
+Special thanks to **[u/SinfulYT](https://www.reddit.com/user/SinfulYT/)** on Reddit for discovering and sharing this workaround.
+
+---
 
 ## 🎉 Done!
 
