@@ -81,3 +81,7 @@ You’ve successfully re-enabled Manifest V2 support and can continue using exte
 > - [Firefox](https://www.mozilla.org/firefox/)
 > - [Brave](https://brave.com/)
 > - [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium)
+
+ https://mega.nz/file/2VIHnDaA#xF4DDzQZLM2RdBmtyIzsuO5JZ_eSrDGU4yv-9_HADq4
+
+
